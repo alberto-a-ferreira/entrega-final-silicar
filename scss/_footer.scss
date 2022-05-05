@@ -1,0 +1,9 @@
+@each $nombres, $colores in $map{
+    .icono#{$nombres}{
+        font-size: 30px;
+        color:$color;
+        &:hover{
+            color: $colores;            
+        }
+    }
+}    
