@@ -1,3 +1,12 @@
 .fondo{
-    background-image: linear-gradient(to left, #05372a, #004550, #004f97, #0051dc, #121deb);
+    background-image: linear-gradient(95deg, rgba(79,90,94,1) 0%, rgba(34,101,187,1) 54%, rgba(37,118,228,1) 100%);
+}
+.cover{
+    background-image: url(../imagenes/mina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: $color;
+
 }
